@@ -31,7 +31,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold fs-4" href="#">Bikerz zone</a>
+                <a class="navbar-brand fw-bolder fs-4" href="#">Bikerz zone</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -56,17 +56,18 @@
                 </div>
             </div>
         </nav>
+
         <!-- 
             Carosel/image-slider
          -->
-        <div id="carouselExampleControls" class="carousel slide bg-danger bg-opacity-10 p-5 rounded-5"
+        <div id="carouselExampleControls" class="carousel slide bg-danger bg-opacity-10 p-5 rounded-4"
             data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div>
-                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
                                 <p>Amet minim mollit non deserunt ullamco
                                     est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                                 </p>
@@ -74,15 +75,15 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
-                            <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                            <img src="images/bike-1.png" class="d-block w-100 img-fluid" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div>
-                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
                                 <p>Amet minim mollit non deserunt ullamco
                                     est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                                 </p>
@@ -95,10 +96,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div>
-                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
                                 <p>Amet minim mollit non deserunt ullamco
                                     est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                                 </p>
@@ -123,6 +124,31 @@
             </button>
         </div>
     </header>
+
+    <!-- 
+        Main all sections
+     -->
+    <main>
+        <!-- 
+            Hot bike section
+         -->
+        <section class="text-center mt-5">
+            <h1>Fetured Bikes In This Year</h1>
+            <p class="text-danger">Best bike collection</p>
+            <hr class="w-25 mx-auto border-danger">
+            <div class="row row-cols-1 row-cols-sm-3 .row-cols-md-3 g-3 mt-4 px-5">
+                <div class="col">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-100" src="images/bike-8.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- 
         Bootstrap js cdn link is associated with HTML
      -->
