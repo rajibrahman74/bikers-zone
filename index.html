@@ -29,11 +29,11 @@
     <script src="https://kit.fontawesome.com/db4ee0c467.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-lg">
+<body>
     <!-- 
         Header and nav bar
      -->
-    <header>
+    <header class="container-lg">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand fw-bolder fs-4" href="#">Bikerz zone</a>
@@ -133,7 +133,7 @@
     <!-- 
         Main all sections
      -->
-    <main>
+    <main class="container-lg">
         <!-- 
             Hot bike section
          -->
@@ -272,7 +272,7 @@
             FAQ section
          -->
         <section class="my-5 px-3 bg-secondary-subtle rounded-4">
-            <h1 class="fw-bold text-center pt-5">Frequently Asked <span class="text-danger-emphasis">Questions</span>
+            <h1 class="fw-bold text-center py-5">Frequently Asked <span class="text-danger-emphasis">Questions</span>
             </h1>
             <div class="row row-cols-1 row-cols-md-2 align-items-center g-5">
                 <div class="col text-center">
@@ -344,6 +344,29 @@
             </div>
         </section>
     </main>
+
+    <!-- 
+        Footer
+     -->
+    <footer class="container-fluid bg-dark mt-5 py-5">
+        <div class="row">
+            <div class="ol-12 col-sm-12 col-md-6 col-lg-6 text-center text-white foot-title my-auto d-none d-sm-block">
+                © 2020 bike. All rights reserved
+            </div>
+            <div class="ol-12 col-sm-12 col-md-6 col-lg-6 text-center text-white icon-title my-auto">
+                Get the App
+                <br>
+                <span class="pt-2 d-flex flex-column justify-content-center align-items-center gap-2">
+                    <a href="#"><img class="w-50" src="images/android.png" alt=""></a>
+                    <a href="#"><img class="w-50" src="images/ios.png" alt=""></a>
+                </span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center text-white foot-title mt-5 	d-block d-sm-none">
+                © 2020 bike. All rights reserved
+            </div>
+        </div>
+    </footer>
+
     <!-- 
         Bootstrap js cdn link is associated with HTML
      -->
